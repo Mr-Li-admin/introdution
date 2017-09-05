@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>求职简历</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="../public/bs/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../public/js/circleChart.min.js"></script>
+	<script src="../public/bs/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+	
+</head>
+<body data-spy="scroll" data-target="#mynavbar" data-offset="200">
+
+<!-- 导航菜单 -->
+<nav class="navbar navbar-default navbar-fixed-top" id="mynavbar">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="navbar-header">
+				<img src="img/nav.png"></img>
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynav" aria-expanded="false">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="mynav">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+          				<a href="#product" class="dropdown-toggle" data-toggle="dropdown">
+          					优秀作品展示<span class="caret"></span></a>
+          				<ul class="dropdown-menu" id="dropdown-menu">
+							<li><a href="#B1" role="button"> 华为</a></li>
+							<li><a href="#B1"> 长征-2</a></li>
+							<li><a href="#B1"> 心理站-1</a></li>
+							<li><a href="#B1"> 心理站-2</a></li>
+          				</ul>
+        			</li>
+					<li><a href="#skill">知识技术</a></li>
+					<li><a href="#info">个人介绍</a></li>
+					<li><a href="#contact">面试邀请</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</nav>
+
+
+<!-- 个人图片及欢迎页 -->
+<div class="container-fluid" style="background:#66CCCC">
+	<div class="container">
+		<div class="welcome">
+			<div class="row">
+				<div class="col-md-5 myself bounceInRight">
+					<img id="holder" class="img-responsive" src="img/banner.gif"   alt="">
+				</div>
+				<div class="col-md-7 welcome-img">
+					<img class="img-responsive" src="img/welcome.png"  alt="">
+					<img class="img-responsive" src="img/myself.png"  alt="">
+					<center>
+						<div class="line"></div>
+					</center>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid" style="background: #99CC99">
+	<a href="#" id="A2"></a>
+	<div class="container">
+		<div class="product" id="product">
+			<h1 class="page-header">优秀作品展示</h1>
+			<div id="pro_1" class="carousel slide" data-ride="carousel">
+				<!-- 图片区 -->
+				<div class="carousel-inner">
+				    <div class="item active pro-1">
+				      <img src="img/hw-1.jpg"  alt="">
+				      <div class="carousel-caption">
+				      	描述内容
+				      </div>
+				    </div>
+				    <div class="item pro-1">
+				      <img src="img/hw-2.jpg" alt="">
+				      <div class="carousel-caption">
+				        描述内容
+				      </div>
+				    </div>
+				    <div class="item pro-2">
+				     <img src="img/cz-1.jpg"  alt="">
+				    </div>
+				    <div class="item pro-2">
+				     <img src="img/cz-2.jpg" alt="">
+				    </div>
+				    <div class="item pro-2">
+				     <img src="img/cz-3.jpg" alt="">
+				    </div>
+				    <div class="item pro-2">
+				     <img src="img/cz-4.jpg" alt="">
+				    </div>
+
+				    <div class="item pro-3">
+				      <img src="img/xl-1.jpg"  alt="">
+				    </div>
+				    <div class="item pro-3">
+				      <img src="img/xl-2.jpg" alt="">
+				    </div>
+				     <div class="item pro-3">
+				      <img src="img/xl-3.jpg" alt="">
+				    </div>
+				    <div class="item pro-3">
+				      <img src="img/xl-4.jpg" alt="">
+				    </div>
+				    <div class="item pro-3">
+				      <img src="img/xl-5.jpg" alt="">
+				    </div>
+				    <div class="item pro-3">
+				      <img src="img/xl-6.jpg" alt="">
+				    </div>
+
+				    <div class="item pro-4">
+				      <img src="img/xl-7.jpg"  alt="">
+				    </div>
+				    <div class="item pro-4">
+				      <img src="img/xl-8.jpg" alt="">
+				    </div>
+				     <div class="item pro-4">
+				      <img src="img/xl-9.jpg" alt="">
+				    </div>
+				    <div class="item  pro-4">
+				      <img src="img/xl-10.jpg" alt="">
+				    </div>
+				    <div class="item  pro-4">
+				      <img src="img/xl-11.jpg" alt="">
+				    </div>
+				    <div class="item  pro-4">
+				      <img src="img/xl-12.jpg" alt="">
+				    </div>
+
+				</div>
+			  	<!-- 左右切换 -->
+			  	<a class="left carousel-control" href="#pro_1" data-slide="prev">
+				    <span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#pro_1" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+		  	</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid" style="background:#99CC33">
+	<a href="#" id="A3"></a>
+	<div class="container">
+		<div class="skill" id="skill">
+			<h1 class="page-header">&nbsp;&nbsp;&nbsp;MySkill</h1>
+			<div class="row">
+				<div class="col-md-4 ">
+					<div id="bounceInLeft" class="" >
+						<div class="circleChart" id="html"></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="shake" class="">
+						<div class="circleChart" id="html5"></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div id="bounceInRight" class="">
+						<div class="circleChart" id="css"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="" id="rollInLeft">
+						<div class="circleChart" id="css3"></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="" id="flipInX">
+						<div class="circleChart" id="javascript"></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="" id="rollInRight">
+						<div class="circleChart" id="jquery"></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="" id="bounce_1">
+						<div class="circleChart" id="bootstrap"></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="" id="bounceInUp">
+						<div class="circleChart" id="mysql"></div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="" id="bounce_2">
+						<div class="circleChart" id="php"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid" style="background:#336666">
+	<a href="#" id="A4"></a>
+	<div class="container">		
+		<div class="info" id="info" style="background:#FFC">			
+			<div class="row">
+				<h1 class="page-header">&nbsp;&nbsp;&nbsp;&nbsp;个人简历</h1> 
+				<div class="col-md-1"></div>
+				<div class="col-md-3 infoLeft">
+					<p><img class="img-responsive" src="img/wo.png" alt=""></p>
+					<p>姓名：李富全</p>
+					<p>联系方式：18434365960</p>
+					<p>邮箱：18434365960@163.com</p>
+					<p>地址：山西省太原市尖草坪区中北大学</p>
+				</div>
+				<div class="col-md-8 infoRight">
+					<div class="row">
+						<div class="col-md-3 Title">
+							个人简介
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-1">
+						</div>
+						<div class="col-md-8 Tbody">
+							<p>性别：男<p>						
+							<p>出生年份：1995-8-5<p>
+							<p>民族：汉族</p>
+							<p>籍贯：广西壮族自治区玉林市樟木镇</p>
+							<p>婚姻状况：未婚</p>				
+							<p>身高：167 cm</p>
+							<p>体重：65 kg</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 Title">
+							工作经验
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-1">
+						</div>
+						<div class="col-md-10 Tbody">
+							<p>
+								<h2>项目名称：求职简历<span class="fsize">（2017/07/05 ~ 2017/07/12）</span></h2>
+								<p>详情：为了增加自己核心竞争力，在基本简历基础上，设计一份网页简历，该简历运用了大量动态效果，体现自己在前端设计能力。</p>
+							<p>
+							<hr>
+							<p>
+								<h2>项目名称：仿华为首页（旧版）<span class="fsize">（2016/05/15 ~ 2017/05/18）</span></h2>
+								<p>详情：第一次做的前端实战项目，比较基础，运用较多css和html，页面与原理没有太大差异，代码全是自己写的，不是看着源代码写的。</p>
+							<p>	
+							<hr>
+							<p>
+								<h2>项目名称：仿聚美优品首页<span class="fsize">（2016/07/15 ~ 2017/07/19）</span></h2>
+								<p>详情：加入山西省太原市中北大学红色太行工作室技术部的面试题目，在HTML基础上加入javascript，页面有了动态效果，效果与官网类似，流畅有些欠佳。更加熟悉html和css,以及初步尝试css3和html5</p>
+							<p>	
+							<hr>
+							<p>
+								<h2>项目名称：纪念长征胜利70周年（一）<span class="fsize">（2016/10/01 ~ 2017/10/07）</span></h2>
+								<p>详情：为纪念长征胜利70周年，响应学校爱国教育，培养当代大学生爱国情怀以及居安思危思想，以红四方面军为对象设计，以时间为线索，图片与文字结合。该项目包括电脑端以及移动端，网页自动判断访问客户端，实时选择合适跳转页面。</p>
+							<p>	
+							<hr>
+							<p>
+								<h2>项目名称：心理站一<span class="fsize">（2016/11/17 ~ 2016/12/01）</span></h2>
+								<p>详情：学校接受机械与动力工程学院心理辅导站邀请，为其设计网页供给本学院学生老师访问，了解心理站主要工作，以及为学生提供心理咨询。主要运用了css,htnl,javascript.</p>
+							<p>
+							<p>
+								<h2>项目名称：心理站二<span class="fsize">（2016/12/10 ~ 2016/12/18）</span></h2>
+								<p>详情：在一得基础上，重新设计其页面，使其更加整洁大方，提高加在的速度，同时大量运用css3,html5(最新一版前端语言)用于代替JavaScript的动态效果。</p>
+							<p>
+							<p>
+								<h2>项目名称：纪念长征胜利70周年（二）<span class="fsize">（2017/6/22 ~ 2017/06/25）</span></h2>
+								<p>详情：在一得基础上，运用最新前端框架bootstrap,代替自己的代码，代码更为规范，去掉更多复杂动态效果，加载速度更快。</p>
+							<p>							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 Title">
+							求职意向
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-1">
+						</div>
+						<div class="col-md-10 Tbody">
+							<p>职位：前端工程师<p>						
+							<p>工作地点：广西壮族自治区玉林市玉州区<p>
+							<p>要求：暂无</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 Title">
+							教育经历
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-1">
+						</div>
+						<div class="col-md-10 Tbody">
+							<p>2014.09--至今<p>						
+							<p>2014年开始就读于中北大学，主修专业：安全工程学，包括课程：安全系统工程，安全经济学，安全评价，安全法学，安全人机工程，爆炸作用原理，燃烧与爆炸......<p>
+							<p>在业余时间里自学网站设计，参与包括云之梦线上培训，布尔教育线上培训，腾讯课堂，慕课网等。擅长前端设计，包括html，html5，css，css3，JavaScript以及jquery,目前正在学习PHP及mysql.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3 Title">
+							自我评价
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-1">
+						</div>
+						<div class="col-md-10 Tbody">
+							<p>我是一个有规划的，并且喜欢按计划做事的一个人，因为有计划，目标才清晰可见，不会盲目行事。同时也有着不错的耐心，因为在网站开发过程中如果缺少足够的耐心，编写代码是很混乱的，而且会存在错漏百出。三是能过独立进行网站的前端设计。<p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid contact" id="contact" style="background:#C03">
+	<a href="#" id="A5"></a>
+	<div class="container">
+		<h1 class="page-header">简历要求(提示：该服务器不支持PHP，请用正常途径发送)</h1>
+		<form class="form-horizontal interview" action="../admin/sendEmail.php" method="post" >
+			<div class="form-group">
+				<label for="">公司名称:</label>
+				<input class="form-control" type="text" name="company" value="" id="company">
+			</div>
+			<div class="form-group">
+				<label for="">面试地点:</label>
+				<input class="form-control" type="text" name="address" value="" id="address">
+			</div>
+			<div class="form-group">
+				<label for="">面试时间:</label>
+				<input class="form-control" type="text" name="time" value="" id="time">
+			</div>
+			<div class="form-group">
+				<label for="">联系方式:</label>
+				<input class="form-control" type="text" name="phone" value="" id="phone">
+			</div>
+			<div class="form-group">
+				<label for="">面试要求及仪表着装要求:</label>
+				<textarea class="form-control"  name="require" rows="3"  id="require"></textarea>
+			</div>
+			<div class="form-group">
+				<label for="">面试职位:</label>
+				<div class="checkbox Psition">					
+					<label>
+						<input type="checkbox" name="position_1"  id="position_1">前端工程师
+					</label>
+					<label>
+						<input type="checkbox" name="position_2"  id="position_2">数据库工程师
+					</label>
+					<label>
+						<input type="checkbox" name="position_3"  id="position_3">后台工程师
+					</label>
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label>
+					<input class="btn btn-info btn-lg" type="reset" value="重&nbsp;置">
+					<input class="btn btn-info btn-lg" type="submit" id="submit" style="display:none">
+					<a onclick="GetInfo()"  class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">发送</a>
+					<div class="modal fade" id="myModal">
+						<div class="modal-dialog">
+							<div class="modal-content">
+					      		<div class="modal-header">
+				        			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        			<h1 class="modal-title" id="myModalLabel">面试邀请</h1>
+					      		</div>
+					      		<div class="modal-body">
+					      			<p></p>
+					      			<p></p>
+					      			<p></p>
+					      			<p></p>
+					      			<p></p>
+					      			<p></p>
+					      		</div>
+					      		<div class="modal-footer">
+				        			<button type="button" class="btn btn-default" data-dismiss="modal">返回</button>
+				        			<button onclick="SetInfo()" type="button" class="btn btn-primary">确认发送</button>
+					      		</div>
+					    	</div>
+						</div>
+					</div> 
+				</label>
+			</div>
+
+		</form>
+	</div>
+</div>
+
+
+</body>
+<script>
+function GetInfo(){
+	/*alert(1)*/
+	value_1=document.getElementById("company").value;
+	value_2=document.getElementById("address").value;
+	value_3=document.getElementById("time").value;
+	value_4=document.getElementById("phone").value;
+	value_5=document.getElementById("require").value;
+	value_6="";
+	value_7="";
+	value_8="";
+	if(document.getElementById("position_1").value=="on"){
+		value_6="前端工程师";
+	}
+	if(document.getElementById("position_2").value=="on"){
+		value_7="数据库工程师";
+	}
+	if(document.getElementById("position_3").value=="on"){
+		value_8="后台工程师";
+	}
+	$(".modal-body>p").eq(0).html("面试公司："+value_1);
+	$(".modal-body>p").eq(1).html("面试地点："+value_2);
+	$(".modal-body>p").eq(2).html("面试时间："+value_3);
+	$(".modal-body>p").eq(3).html("联系方式："+value_4);
+	$(".modal-body>p").eq(4).html("面试要求："+value_5);
+	$(".modal-body>p").eq(5).html("面试职位："+value_6+","+value_7+","+value_8);
+}
+function SetInfo(){
+	document.getElementById("submit").click();
+}
+	
+</script>
+</html>

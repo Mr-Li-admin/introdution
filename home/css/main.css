@@ -1,0 +1,189 @@
+body{
+	padding-top: 71px;
+	position: relative;
+	overflow-x:hidden; 
+}
+.navbar{
+	padding-top:10px;
+	padding-bottom:10px;
+	background:#66CCCC;
+}
+.navbar-header{
+	margin-bottom:10px; 
+}
+#mynav ul li a{
+	font-size: 25px;
+	color:#FFF;
+}
+#dropdown-menu{
+	background: #66CCCC;
+	margin-left: 25px;
+}
+#dropdown-menu .Active{
+	background: #000;
+}
+/* 导航特效 */
+#mynav ul li a::before,
+#mynav ul li a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+#mynav ul li a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+#mynav ul li a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+#mynav ul li a:hover::before,
+#mynav ul li a:hover::after{
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}
+/* 导航特效 */
+.welcome{
+	height:600px;
+	overflow: hidden; 
+}
+.myself{
+
+}
+.myself img{
+	opacity: 1;
+}
+.welcome-img{
+	position: relative;
+}
+.welcome-img img{
+	position: absolute;
+	left:-15px;
+	opacity: 0;
+} 
+.line{
+	height: 20px;
+	width: 0px;
+	position: absolute;
+	border-bottom: 2px solid #6598CB;
+}
+
+
+.product{
+	padding-bottom: 50px;
+}
+.skill{
+	background: #FF9933;
+	overflow: hidden;
+	padding: 0px 15px;
+	margin-bottom: 50px;
+}
+.skill>div>div>div>div{
+	padding-top: 15px;
+	margin-bottom: 15px;
+	height: 350px;
+	border:#FFF solid 2px;
+	border-radius: 20px;
+
+}
+#html{
+	background: url("../img/h.png") center no-repeat;
+	background-size: 55% 55%;
+}
+#html5{
+	background: url("../img/h5.png") center no-repeat;
+	background-size: 50% 60%;
+}
+#css{
+	background: url("../img/css.png") center no-repeat;
+	background-size: 55% 55%;
+}
+#css3{
+	background: url("../img/css3.png") center no-repeat;
+	background-size: 50% 60%;
+}
+#javascript{
+	background: url("../img/js.png") center no-repeat;
+	background-size: 50% 60%;
+}
+#jquery{
+	background: url("../img/jq.png") center no-repeat;
+	background-size: 55% 30%;
+}
+#bootstrap{
+	background: url("../img/bs.png") center no-repeat;
+	background-size: 55% 30%;
+}
+#mysql{
+	background: url("../img/sql.png") center no-repeat;
+	background-size: 55% 50%;
+}
+#php{
+	background: url("../img/php.png") center no-repeat;
+	background-size: 54% 50%;
+}
+.info{
+	padding: 0px 15px;
+	margin-bottom: 50px;
+}
+.infoLeft{
+	padding-top:15px;
+	background:#C93;
+}
+.infoLeft>p>img{
+	margin: 0 auto; 
+}
+.infoLeft>p{
+	font-size: 22px; 
+	word-wrap:break-word;
+	word-break:break-all;
+	color: #FFF;
+}
+.infoRight{
+	padding-top:50px;
+}
+.Title{
+	margin-left:15px;
+	width: 250px;
+	height:75px;
+	line-height: 75px;
+	text-align: center;
+	font-size:36px;
+	border-radius: 0px 20px 20px 0px;
+	background: #AB5042;
+	color: #FFF;
+}
+.Tbody{
+	padding-top:15px;
+	font-size:22px;
+	text-indent: 44px;
+}
+.fsize{
+	font-size:20px;
+}
+.contact{
+	font-size: 20px;
+	color: #000;
+	
+}
+.form-control{
+	font-size: 18px;
+}
+.Psition>label>input{
+	margin-top: 10px;
+}
+label{
+	font-weight: normal;
+}
